@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python gen_with_random_and_eval.py --model_id Mistral-7B-Instruct-v0.3-step2 --model_name mistralai/Mistral-7B-Instruct-v0.3

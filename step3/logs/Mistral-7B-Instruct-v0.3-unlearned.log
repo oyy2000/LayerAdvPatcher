@@ -1,0 +1,60 @@
+2025-02-12-19-34,847 root INFO test: False
+2025-02-12-19-34,847 root INFO scheduler: linear
+2025-02-12-19-34,847 root INFO use_lora: False
+2025-02-12-19-34,847 root INFO use_decay_loss: False
+2025-02-12-19-34,847 root INFO max_unlearn_steps: 1000
+2025-02-12-19-34,848 root INFO bad_weight: 0.5
+2025-02-12-19-34,848 root INFO random_weight: 1.0
+2025-02-12-19-34,848 root INFO normal_weight: 1.0
+2025-02-12-19-34,848 root INFO batch_size: 8
+2025-02-12-19-34,848 root INFO lr: 2e-06
+2025-02-12-19-34,848 root INFO max_bad_loss: 100.0
+2025-02-12-19-34,848 root INFO model_name: mistralai/Mistral-7B-Instruct-v0.3
+2025-02-12-19-34,848 root INFO model_id: facebook/opt-1.3b
+2025-02-12-19-34,848 root INFO model_save_dir: Mistral-7B-Instruct-v0.3-unlearned
+2025-02-12-19-34,848 root INFO save_every: 500
+2025-02-12-19-34,848 root INFO log_file: logs/Mistral-7B-Instruct-v0.3-unlearned.log
+2025-02-12-19-34,848 root INFO dataset_name: step2_10x
+2025-02-12-19-34,848 root INFO start_layer: 29
+2025-02-12-19-34,848 root INFO end_layer: 31
+2025-02-12-19-34,848 root INFO param_name: mlp
+2025-02-12-19-34,707 accelerate.utils.other WARNING Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-02-12-19-34,961 accelerate.utils.modeling INFO We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-02-12-19-34,792 root INFO Model is on device: cuda:0
+2025-02-12-19-36,693 root INFO test: False
+2025-02-12-19-36,693 root INFO scheduler: linear
+2025-02-12-19-36,693 root INFO use_lora: False
+2025-02-12-19-36,693 root INFO use_decay_loss: False
+2025-02-12-19-36,693 root INFO max_unlearn_steps: 1000
+2025-02-12-19-36,693 root INFO bad_weight: 0.5
+2025-02-12-19-36,695 root INFO random_weight: 1.0
+2025-02-12-19-36,695 root INFO normal_weight: 1.0
+2025-02-12-19-36,695 root INFO batch_size: 8
+2025-02-12-19-36,695 root INFO lr: 2e-06
+2025-02-12-19-36,696 root INFO max_bad_loss: 100.0
+2025-02-12-19-36,696 root INFO model_name: mistralai/Mistral-7B-Instruct-v0.3
+2025-02-12-19-36,696 root INFO model_id: facebook/opt-1.3b
+2025-02-12-19-36,696 root INFO model_save_dir: Mistral-7B-Instruct-v0.3-unlearned
+2025-02-12-19-36,696 root INFO save_every: 500
+2025-02-12-19-36,696 root INFO log_file: logs/Mistral-7B-Instruct-v0.3-unlearned.log
+2025-02-12-19-36,696 root INFO dataset_name: step2_10x
+2025-02-12-19-36,696 root INFO start_layer: 29
+2025-02-12-19-36,696 root INFO end_layer: 31
+2025-02-12-19-36,696 root INFO param_name: mlp
+2025-02-12-19-36,736 accelerate.utils.other WARNING Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-02-12-19-36,740 accelerate.utils.modeling INFO We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-02-12-19-36,499 root INFO Model is on device: cuda:0
+2025-02-12-19-36,613 root INFO batch: 0, bad_loss: 0.81, random_loss: 6.17, current_div_loss: 1.25, iter_idx: 0
+2025-02-12-19-36,812 root INFO batch: 1, bad_loss: 0.60, random_loss: 6.41, current_div_loss: 1.39, iter_idx: 1
+2025-02-12-19-36,32 root INFO batch: 2, bad_loss: 0.52, random_loss: 6.60, current_div_loss: 1.51, iter_idx: 2
+2025-02-12-19-36,281 root INFO batch: 3, bad_loss: 0.56, random_loss: 5.53, current_div_loss: 1.54, iter_idx: 3
+2025-02-12-19-36,439 root INFO batch: 4, bad_loss: 0.63, random_loss: 7.36, current_div_loss: 1.45, iter_idx: 4
+2025-02-12-19-36,743 root INFO batch: 5, bad_loss: 0.62, random_loss: 5.63, current_div_loss: 1.81, iter_idx: 5
+2025-02-12-19-36,33 root INFO batch: 6, bad_loss: 0.99, random_loss: 6.06, current_div_loss: 1.36, iter_idx: 6
+2025-02-12-19-37,256 root INFO batch: 7, bad_loss: 0.88, random_loss: 7.21, current_div_loss: 1.31, iter_idx: 7
+2025-02-12-19-37,446 root INFO batch: 8, bad_loss: 1.00, random_loss: 7.28, current_div_loss: 1.37, iter_idx: 8
+2025-02-12-19-37,682 root INFO batch: 9, bad_loss: 1.07, random_loss: 7.00, current_div_loss: 1.59, iter_idx: 9
+2025-02-12-19-37,910 root INFO batch: 10, bad_loss: 0.88, random_loss: 6.65, current_div_loss: 1.42, iter_idx: 10
+2025-02-12-19-37,114 root INFO batch: 11, bad_loss: 0.73, random_loss: 6.68, current_div_loss: 1.49, iter_idx: 11
+2025-02-12-19-37,230 root INFO batch: 12, bad_loss: 0.66, random_loss: 8.39, current_div_loss: 1.50, iter_idx: 12
+2025-02-12-19-37,457 root INFO batch: 13, bad_loss: 0.78, random_loss: 5.23, current_div_loss: 1.54, iter_idx: 13
