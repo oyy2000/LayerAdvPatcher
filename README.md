@@ -1,9 +1,12 @@
 # **Layer-Level Self-Exposure and Patch: Affirmative Token Mitigation for Jailbreak Attack Defense**  
+
 This repository contains the implementation of **LayerAdvPatcher**, a novel approach for defending against jailbreak attacks on Large Language Models (LLMs). Our method focuses on **layer-level affirmative token mitigation** by identifying toxic layers, generating adversarial attack prompts, and applying unlearning techniques to patch vulnerabilities which is **efficient and as well effective** in mitigating jailbreak attacks.
 
-For details, refer to our paper:  
-**"Layer-Level Self-Exposure and Patch: Affirmative Token Mitigation for Jailbreak Attack Defense"**  
-[[Paper Link]](https://arxiv.org/abs/2501.02629) | [[GitHub Repository]](https://github.com/oyy2000/LayerAdvPatcher)
+📢 This paper has been accepted to the NAACL 2025 Main Conference and will be presented on April 29, 2025. 🎉
+
+For details, refer to our paper:
+"Layer-Level Self-Exposure and Patch: Affirmative Token Mitigation for Jailbreak Attack Defense"
+📄 [[Paper Link]](https://arxiv.org/abs/2501.02629) | 🔗[[GitHub Repository]](https://github.com/oyy2000/LayerAdvPatcher)
 
 ---
 
@@ -92,3 +95,5 @@ If you find this repository useful, please consider citing our work:
 Special thanks to the [LLM Unlearn](https://github.com/kevinyaobytedance/llm_unlearn) for foundational work on knowledge unlearning.
 
 For any issues or contributions, feel free to open an issue or submit a pull request!
+
+
