@@ -1,5 +1,5 @@
 # **Layer-Level Self-Exposure and Patch: Affirmative Token Mitigation for Jailbreak Attack Defense**  
-
+![LayerAdvPatcher Workflow](imgs/workflow.png)
 This repository contains the implementation of **LayerAdvPatcher**, a novel approach for defending against jailbreak attacks on Large Language Models (LLMs). Our method focuses on **layer-level affirmative token mitigation** by identifying toxic layers, generating adversarial attack prompts, and applying unlearning techniques to patch vulnerabilities which is **efficient and as well effective** in mitigating jailbreak attacks.
 
 📢 This paper has been accepted to the NAACL 2025 Main Conference and will be presented on April 29, 2025. 🎉
@@ -81,11 +81,30 @@ CUDA_VISIBLE_DEVICES=3 python unlearn_harm_llama.py \
 ## **Citation**
 If you find this repository useful, please consider citing our work:
 ```bibtex
-@article{ouyang2025layer,
-  title={Layer-Level Self-Exposure and Patch: Affirmative Token Mitigation for Jailbreak Attack Defense},
-  author={Ouyang, Yang and Gu, Hengrui and Lin, Shuhang and Hua, Wenyue and Peng, Jie and Kailkhura, Bhavya and Chen, Tianlong and Zhou, Kaixiong},
-  journal={arXiv preprint arXiv:2501.02629},
-  year={2025}
+@inproceedings{ouyang-etal-2025-layer,
+    title = "Layer-Level Self-Exposure and Patch: Affirmative Token Mitigation for Jailbreak Attack Defense",
+    author = "Ouyang, Yang  and
+      Gu, Hengrui  and
+      Lin, Shuhang  and
+      Hua, Wenyue  and
+      Peng, Jie  and
+      Kailkhura, Bhavya  and
+      Gao, Meijun  and
+      Chen, Tianlong  and
+      Zhou, Kaixiong",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.623/",
+    doi = "10.18653/v1/2025.naacl-long.623",
+    pages = "12541--12554",
+    ISBN = "979-8-89176-189-6",
+    abstract = "As large language models (LLMs) are increasingly deployed in diverse applications, including chatbot assistants and code generation, aligning their behavior with safety and ethical standards has become paramount. However, jailbreak attacks, which exploit vulnerabilities to elicit unintended or harmful outputs, threaten LLMs safety significantly. In this paper, we introduce Layer-AdvPatcher, a novel methodology designed to defend against jailbreak attacks by utilizing an unlearning strategy to patch specific layers within LLMs through self-augmented datasets. Our insight is that certain layer(s), tend to produce affirmative tokens when faced with harmful prompts. By identifying these layers and adversarially exposing them to generate more harmful data, one can understand their inherent and diverse vulnerabilities to attacks. With these exposures, we then ``unlearn'' these issues, reducing the impact of affirmative tokens and hence minimizing jailbreak risks while keeping the model{'}s responses to safe queries intact.We conduct extensive experiments on two models, four benchmark datasets, and multiple state-of-the-art jailbreak attacks to demonstrate the efficacy of our approach. Results indicate that our framework reduces the harmfulness and attack success rate of jailbreak attacks without compromising utility for benign queries compared to recent defense methods. Our code is publicly available at: https://github.com/oyy2000/LayerAdvPatcher"
 }
 ```
 
@@ -95,5 +114,7 @@ If you find this repository useful, please consider citing our work:
 Special thanks to the [LLM Unlearn](https://github.com/kevinyaobytedance/llm_unlearn) for foundational work on knowledge unlearning.
 
 For any issues or contributions, feel free to open an issue or submit a pull request!
+
+
 
 
